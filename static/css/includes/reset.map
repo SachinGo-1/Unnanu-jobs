@@ -1,0 +1,12 @@
+{
+	"version": 3,
+	"file": "../sass/includes/reset.css",
+	"sources": [
+		"../sass/includes/reset.scss"
+	],
+	"sourcesContent": [
+		"@media (min-width: 992px) {\n    .navbar-expand-lg .navbar-collapse {\n        display: none !important;\n    }\n}\n\n@media (min-width: 1025px) {\n    .navbar-expand-lg .navbar-collapse {\n        display: -ms-flexbox!important;\n        display: flex!important;\n        -ms-flex-preferred-size: auto;\n        flex-basis: auto;\n    }\n}\n\n@media (min-width: 992px) {\n    .navbar-expand-lg {\n        -ms-flex-wrap: wrap;\n        -ms-flex-flow: row nowrap;\n        flex-wrap: wrap;\n        -ms-flex-pack: justify;\n        justify-content: space-between;\n    }\n    .navbar-expand-lg .navbar-toggler {\n        display: inherit;\n    }\n}\n\n@media (min-width: 1025px) {\n    .navbar-expand-lg .navbar-toggler {\n        display: none;\n    }\n    .navbar-expand-lg {\n        -ms-flex-flow: row nowrap;\n        flex-flow: row nowrap;\n        -ms-flex-pack: start;\n        justify-content: flex-start;\n    }\n}"
+	],
+	"mappings": "AAAA,MAAM,EAAL,SAAS,EAAE,KAAK;;EACb,AAAkB,iBAAD,CAAC,gBAAgB,CAAC;IAC/B,OAAO,EAAE,eAAgB;GAC5B;;;AAGL,MAAM,EAAL,SAAS,EAAE,MAAM;;EACd,AAAkB,iBAAD,CAAC,gBAAgB,CAAC;IAC/B,OAAO,EAAE,WAAC,CAAU,UAAU;IAC9B,OAAO,EAAE,IAAI,CAAA,UAAU;IACvB,uBAAuB,EAAE,IAAK;IAC9B,UAAU,EAAE,IAAK;GACpB;;;AAGL,MAAM,EAAL,SAAS,EAAE,KAAK;;EACb,AAAA,iBAAiB,CAAC;IACd,aAAa,EAAE,IAAK;IACpB,aAAa,EAAE,UAAW;IAC1B,SAAS,EAAE,IAAK;IAChB,aAAa,EAAE,OAAQ;IACvB,eAAe,EAAE,aAAc;GAClC;;EACD,AAAkB,iBAAD,CAAC,eAAe,CAAC;IAC9B,OAAO,EAAE,OAAQ;GACpB;;;AAGL,MAAM,EAAL,SAAS,EAAE,MAAM;;EACd,AAAkB,iBAAD,CAAC,eAAe,CAAC;IAC9B,OAAO,EAAE,IAAK;GACjB;;EACD,AAAA,iBAAiB,CAAC;IACd,aAAa,EAAE,UAAW;IAC1B,SAAS,EAAE,UAAW;IACtB,aAAa,EAAE,KAAM;IACrB,eAAe,EAAE,UAAW;GAC/B",
+	"names": []
+}

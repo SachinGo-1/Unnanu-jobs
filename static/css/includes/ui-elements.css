@@ -1,0 +1,183 @@
+@-webkit-keyframes rotateSpinner {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+/* line 10, /Projects/web/unnanu/jobboard-next/static/css/sass/includes/ui-elements.scss */
+.load-more-preloader {
+  padding: 10px;
+}
+
+/* line 13, /Projects/web/unnanu/jobboard-next/static/css/sass/includes/ui-elements.scss */
+.preloader-icon {
+  -webkit-animation: rotateSpinner 1.2s linear infinite;
+  animation: 1.2s linear 0s normal none infinite running rotateSpinner;
+  background-color: transparent;
+  background-image: url("../../assets/img/icon-preload-gray.png");
+  background-repeat: repeat;
+  background-position: 0 0;
+  background-size: cover;
+  display: inline-block;
+  height: 24px;
+  width: 24px;
+}
+
+/* line 30, /Projects/web/unnanu/jobboard-next/static/css/sass/includes/ui-elements.scss */
+.mobile-menu .navbar-nav li.nav-item a.nav-link {
+  color: #89b5ff;
+}
+
+/* line 34, /Projects/web/unnanu/jobboard-next/static/css/sass/includes/ui-elements.scss */
+.mobile-menu .navbar-nav li.nav-item.active a.nav-link {
+  color: #ffffff;
+}
+
+/* line 40, /Projects/web/unnanu/jobboard-next/static/css/sass/includes/ui-elements.scss */
+.mobile-menu ul {
+  margin-bottom: 15px;
+}
+
+/* line 44, /Projects/web/unnanu/jobboard-next/static/css/sass/includes/ui-elements.scss */
+.mobile-menu .mobile-download-app-ui {
+  position: relative;
+  margin-left: -15px;
+  margin-right: -15px;
+  padding-top: 14px;
+  border-top: solid 1px rgba(255, 255, 255, 0.2);
+  object-fit: contain;
+  background-image: radial-gradient(circle at 50% 0, #3475cb, #2d69ce);
+  height: 121px;
+}
+
+/* line 53, /Projects/web/unnanu/jobboard-next/static/css/sass/includes/ui-elements.scss */
+.mobile-menu .mobile-download-app-ui .download-text {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 14px;
+  line-height: 1.43;
+  letter-spacing: 0.4px;
+  text-align: center;
+  color: #ffffff;
+}
+
+/* line 63, /Projects/web/unnanu/jobboard-next/static/css/sass/includes/ui-elements.scss */
+.mobile-menu .mobile-download-app-ui .download-link {
+  position: absolute;
+  top: 65px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+/* line 71, /Projects/web/unnanu/jobboard-next/static/css/sass/includes/ui-elements.scss */
+.guest-user-navigation,
+.logged-in-user-navigation {
+  transition: margin-top 0.2s;
+}
+
+/* line 81, /Projects/web/unnanu/jobboard-next/static/css/sass/includes/ui-elements.scss */
+header.app-header .guest-user-navigation nav ul.navbar-nav li.nav-item a.nav-link {
+  color: #89b5ff;
+}
+
+/* line 85, /Projects/web/unnanu/jobboard-next/static/css/sass/includes/ui-elements.scss */
+header.app-header .guest-user-navigation nav ul.navbar-nav li.nav-item.active a.nav-link {
+  color: #ffffff;
+}
+
+/* line 95, /Projects/web/unnanu/jobboard-next/static/css/sass/includes/ui-elements.scss */
+.mobile-search-keyword-suggestions {
+  padding: 0 15px 10px;
+  background-color: #f4f4f4;
+  width: 100%;
+  height: calc(100vh - 236px);
+  border-radius: 1px;
+  box-shadow: 0 1px 3px 0 rgba(169, 169, 169, 0.4);
+  overflow-y: auto;
+}
+
+@media only screen and (min-width: 769px) {
+  /* line 95, /Projects/web/unnanu/jobboard-next/static/css/sass/includes/ui-elements.scss */
+  .mobile-search-keyword-suggestions {
+    height: 100vh;
+  }
+}
+
+/* line 106, /Projects/web/unnanu/jobboard-next/static/css/sass/includes/ui-elements.scss */
+.mobile-search-keyword-suggestions .suggestions-empty {
+  padding-top: 124px;
+  font-size: 14px;
+  line-height: 1.57;
+  letter-spacing: 0.4px;
+  text-align: center;
+  color: #777777;
+}
+
+/* line 114, /Projects/web/unnanu/jobboard-next/static/css/sass/includes/ui-elements.scss */
+.mobile-search-keyword-suggestions .suggestions-header {
+  margin-bottom: 9px;
+  line-height: 50px;
+  height: 50px;
+  border-bottom: solid 1px rgba(0, 0, 0, 0.12);
+}
+
+/* line 119, /Projects/web/unnanu/jobboard-next/static/css/sass/includes/ui-elements.scss */
+.mobile-search-keyword-suggestions .suggestions-header .header-icon {
+  margin-right: 15px;
+}
+
+/* line 122, /Projects/web/unnanu/jobboard-next/static/css/sass/includes/ui-elements.scss */
+.mobile-search-keyword-suggestions .suggestions-header .currently-typing {
+  font-size: 16px;
+  letter-spacing: 0.4px;
+  color: #266adc;
+  height: 50px;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+}
+
+/* line 133, /Projects/web/unnanu/jobboard-next/static/css/sass/includes/ui-elements.scss */
+.mobile-search-keyword-suggestions .suggestions-no-matches {
+  cursor: pointer;
+  color: #317eff;
+  line-height: 50px;
+  height: 50px;
+}
+
+/* line 141, /Projects/web/unnanu/jobboard-next/static/css/sass/includes/ui-elements.scss */
+.mobile-search-keyword-suggestions .suggestions-result-group .group-title {
+  margin-bottom: 8px;
+  font-size: 13px;
+  letter-spacing: 0.3px;
+  color: #777777;
+}
+
+/* line 147, /Projects/web/unnanu/jobboard-next/static/css/sass/includes/ui-elements.scss */
+.mobile-search-keyword-suggestions .suggestions-result-group .suggestions-results-list {
+  list-style: none;
+  padding: 0;
+}
+
+/* line 150, /Projects/web/unnanu/jobboard-next/static/css/sass/includes/ui-elements.scss */
+.mobile-search-keyword-suggestions .suggestions-result-group .suggestions-results-list li {
+  padding-left: 34px;
+  font-size: 16px;
+  letter-spacing: 0.4px;
+  margin-bottom: 15px;
+  color: #266adc;
+  cursor: pointer;
+}
+
+/* line 159, /Projects/web/unnanu/jobboard-next/static/css/sass/includes/ui-elements.scss */
+.mobile-search-keyword-suggestions .suggestions-result-group .suggestions-results-list li svg {
+  margin-right: 14px;
+  margin-left: -34px;
+}
+
+/*# sourceMappingURL=../../includes/ui-elements.map */

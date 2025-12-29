@@ -1,0 +1,47 @@
+@media (min-width: 992px) {
+  /* line 2, /Projects/web/unnanu/jobboard-next/static/css/sass/includes/reset.scss */
+  .navbar-expand-lg .navbar-collapse {
+    display: none !important;
+  }
+}
+
+@media (min-width: 1025px) {
+  /* line 8, /Projects/web/unnanu/jobboard-next/static/css/sass/includes/reset.scss */
+  .navbar-expand-lg .navbar-collapse {
+    display: -ms-flexbox !important;
+    display: flex !important;
+    -ms-flex-preferred-size: auto;
+    flex-basis: auto;
+  }
+}
+
+@media (min-width: 992px) {
+  /* line 17, /Projects/web/unnanu/jobboard-next/static/css/sass/includes/reset.scss */
+  .navbar-expand-lg {
+    -ms-flex-wrap: wrap;
+    -ms-flex-flow: row nowrap;
+    flex-wrap: wrap;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+  }
+  /* line 24, /Projects/web/unnanu/jobboard-next/static/css/sass/includes/reset.scss */
+  .navbar-expand-lg .navbar-toggler {
+    display: inherit;
+  }
+}
+
+@media (min-width: 1025px) {
+  /* line 30, /Projects/web/unnanu/jobboard-next/static/css/sass/includes/reset.scss */
+  .navbar-expand-lg .navbar-toggler {
+    display: none;
+  }
+  /* line 33, /Projects/web/unnanu/jobboard-next/static/css/sass/includes/reset.scss */
+  .navbar-expand-lg {
+    -ms-flex-flow: row nowrap;
+    flex-flow: row nowrap;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+  }
+}
+
+/*# sourceMappingURL=../../includes/reset.map */

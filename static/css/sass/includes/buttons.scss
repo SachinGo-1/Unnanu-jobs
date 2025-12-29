@@ -1,0 +1,300 @@
+//Buttons
+button {
+	svg {
+		vertical-align: middle;
+	}
+}
+
+button.view-all-btn {
+  width: 100%;
+  height: 31px;
+  border-radius: 15.5px;
+  background-color: #ffffff;
+  font-size: 13px;
+  font-weight: bold;
+  line-height: 1.46;
+  letter-spacing: 0.4px;
+  color: #266adc;
+  transition: all 0.2s ease-in-out;
+  border: 1px solid #266adc;
+
+  @media only screen and (min-width: 1025px) {
+    box-shadow: 0 1px 3px 0 rgba(169, 169, 169, 0.2);
+  }
+
+  span {
+    color: #266adc;
+  }
+
+  &:hover {
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.2);
+    color: #266adc;
+    background-color: #f0f8ff;
+
+  }
+}
+
+.remove-button {
+	background: none;
+	height: 30px;
+	font-size: 12px;
+	font-weight: 500;
+	line-height: 1.58;
+	text-align: right;
+	color: #317eff;
+	svg {
+		margin-top: -1px;
+		margin-right: 4px;
+	}
+}
+.signup-button {
+  width: 134px;
+  height: 35px;
+  border-radius: 4px;
+  border: none;
+  background-color: #317EFF;
+  font-size: 15px;
+  font-weight: 500;
+  text-align: center;
+  color: #ffffff;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.1);
+
+  &.large {
+    width: 177px;
+    height: 50px;
+    font-size: 18px;
+  }
+
+  &:hover {
+    box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.15);
+    background-color: #266adc;
+  }
+}
+
+.save-button {
+  width: 78px;
+  height: 35px;
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.12);
+  border: 1.5px solid #317eff;
+  background-color: #ffffff;
+  border-radius: 4px;
+  font-size: 13px;
+  font-weight: bold;
+  letter-spacing: 0.4px;
+  color: #317eff;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.2s ease-in-out;
+
+  span {
+		color: #317eff;
+	}
+	svg {
+		margin-top:-2px;
+		margin-right: 6px;
+	}
+
+	&.large {
+		width: 195px;
+		height: 48px;
+		font-size: 16px;
+		svg {
+			width: 12.7px;
+			height: 22px;
+			margin-right: 9px;
+		}
+	}
+
+  &:hover {
+    box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.2);
+    background-color: #f0f8ff;
+    border-width: 1.5px;
+  }
+	&.saved {
+		svg {
+			margin-right: 5px;
+		}
+		&.large {
+			svg {
+				margin-right: 7px;
+			}
+		}
+	}
+	&:disabled {
+		cursor: not-allowed;
+		opacity: 0.2 !important;
+		border: solid 1.5px #317eff !important;
+		color: #317eff !important;
+	}
+}
+.apply-button {
+  width: 96px;
+  height: 35px;
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.2);
+  background-color: #ffffff;
+  border: 4px solid #317eff;
+  border-radius: 6px; /* Slightly rounded for a modern look */
+  font-size: 13px;
+  font-weight: bold;
+  letter-spacing: 0.4px;
+  color: #222222;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+
+	span {
+		color: #222222;
+	}
+
+	&.apply-button-mobile {
+		width: 100%;
+		height: 40px;
+		font-size: 15px;
+		letter-spacing: 0.5px;
+		line-height: 26px;
+	}
+
+	svg {
+		margin-top:-2px;
+	}
+
+	&.large {
+		width: 195px;
+		height: 48px;
+		font-size: 16px;
+		svg {
+			width: 19px;
+			height: 19px;
+			margin-right: 7px;
+		}
+	}
+	&:hover {
+		box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.2);
+		background-color: #f0f8ff;
+		span {
+			color: #222222;
+		}
+	}
+
+	&.applied {
+		color: #ffffff;
+		box-shadow: none;
+		background-color: #317eff;
+		border: 1px solid #317eff;
+		span {
+			color: #ffffff;
+		}
+		svg {
+			margin-right: 5px;
+		}
+	}
+	}
+	&:disabled {
+		cursor: not-allowed;
+		box-shadow: none;
+		color: rgba(0, 0, 0, 0.16);
+		background-color: rgba(0, 0, 0, 0.08);
+	}
+button.back-button {
+	font-size: 18px;
+	font-weight: 500;
+	letter-spacing: 0.4px;
+	color: #317eff;
+	background: none;
+	padding:0;
+	border:0;
+	svg {
+		margin-top:-3px;
+		margin-right: 15px;
+	}
+}
+.confirm-button {
+  width: 96px;
+  height: 35px;
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.2);
+  background-color: #317eff;
+  border: none;
+  border-radius: 6px; /* Slightly rounded for a modern look */
+  font-size: 13px;
+  font-weight: bold;
+  letter-spacing: 0.4px;
+  color: #ffffff !important; /* Ensures text stays white */
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+
+  span {
+    color: #ffffff !important; /* Ensures inner span text stays white */
+  }
+
+  &.large {
+    width: 135px;
+    height: 48px;
+    font-size: 16px;
+
+    svg {
+      width: 19px;
+      height: 19px;
+      margin-right: 7px;
+    }
+  }
+
+  &:hover {
+    box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.2);
+    background-color: #2567d5;
+
+    /* Explicitly ensuring text stays white on hover */
+    color: #ffffff !important;
+
+    span {
+      color: #ffffff !important;
+    }
+  }
+}
+
+
+.cancel-button {
+    width: 96px;
+	height: 35px;
+	box-shadow: none !important;
+	background: none !important;
+	border: 0;
+	border-radius: 0;
+	font-size: 13px;
+	font-weight: bold;
+	letter-spacing: 0.4px;
+    color: #777777;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+    &.large {
+		width: 135px;
+		height: 48px;
+		font-size: 16px;
+	}
+	&:hover {
+      box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.2);
+      background-color: rgba(0, 0, 0, 0.05);
+	}
+}
+
+.delete-icon {
+  stroke: gray;
+  fill: white;
+  stroke-width: 1;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  transition: stroke 0.3s ease-in-out, transform 0.3s ease-in-out;
+  cursor: pointer;
+
+  &:hover {
+    stroke: #ff0000;
+    transform: scale(1.1);
+  }
+}

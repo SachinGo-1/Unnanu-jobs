@@ -1,0 +1,292 @@
+/* line 3, /Projects/web/unnanu/jobboard-next/static/css/sass/includes/buttons.scss */
+button svg {
+  vertical-align: middle;
+}
+
+/* line 7, /Projects/web/unnanu/jobboard-next/static/css/sass/includes/buttons.scss */
+button.view-all-btn {
+  width: 100%;
+  height: 31px;
+  border-radius: 15.5px;
+  background-color: #ffffff;
+  font-size: 13px;
+  font-weight: bold;
+  line-height: 1.46;
+  letter-spacing: 0.4px;
+  color: #266adc;
+}
+
+@media only screen and (min-width: 1025px) {
+  /* line 7, /Projects/web/unnanu/jobboard-next/static/css/sass/includes/buttons.scss */
+  button.view-all-btn {
+    box-shadow: 0 1px 3px 0 rgba(169, 169, 169, 0.2);
+  }
+}
+
+/* line 20, /Projects/web/unnanu/jobboard-next/static/css/sass/includes/buttons.scss */
+button.view-all-btn span {
+  color: #266adc;
+}
+
+/* line 24, /Projects/web/unnanu/jobboard-next/static/css/sass/includes/buttons.scss */
+.remove-button {
+  background: none;
+  height: 30px;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 1.58;
+  text-align: right;
+  color: #317eff;
+}
+
+/* line 32, /Projects/web/unnanu/jobboard-next/static/css/sass/includes/buttons.scss */
+.remove-button svg {
+  margin-top: -1px;
+  margin-right: 4px;
+}
+
+/* line 37, /Projects/web/unnanu/jobboard-next/static/css/sass/includes/buttons.scss */
+.signup-button {
+  width: 134px;
+  height: 35px;
+  border-radius: 1px;
+  border: solid 0.6px rgba(0, 0, 0, 0.12);
+  background-color: #ffba00;
+  font-size: 15px;
+  font-weight: 500;
+  text-align: center;
+  color: #000000;
+}
+
+/* line 47, /Projects/web/unnanu/jobboard-next/static/css/sass/includes/buttons.scss */
+.signup-button.large {
+  width: 177px;
+  height: 50px;
+  font-size: 18px;
+}
+
+/* line 53, /Projects/web/unnanu/jobboard-next/static/css/sass/includes/buttons.scss */
+.signup-button:hover {
+  background-color: #edad00;
+}
+
+/* line 57, /Projects/web/unnanu/jobboard-next/static/css/sass/includes/buttons.scss */
+.save-button {
+  width: 78px;
+  height: 35px;
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.12);
+  border-style: solid;
+  border-color: #317eff;
+  border-width: 0.8px;
+  background-color: #ffffff;
+  border-radius: 0;
+  font-size: 13px;
+  font-weight: bold;
+  letter-spacing: 0.4px;
+  color: #317eff;
+}
+
+/* line 70, /Projects/web/unnanu/jobboard-next/static/css/sass/includes/buttons.scss */
+.save-button span {
+  color: #317eff;
+}
+
+/* line 73, /Projects/web/unnanu/jobboard-next/static/css/sass/includes/buttons.scss */
+.save-button svg {
+  margin-top: -2px;
+  margin-right: 6px;
+}
+
+/* line 78, /Projects/web/unnanu/jobboard-next/static/css/sass/includes/buttons.scss */
+.save-button.large {
+  width: 195px;
+  height: 48px;
+  font-size: 16px;
+}
+
+/* line 82, /Projects/web/unnanu/jobboard-next/static/css/sass/includes/buttons.scss */
+.save-button.large svg {
+  width: 12.7px;
+  height: 22px;
+  margin-right: 9px;
+}
+
+/* line 88, /Projects/web/unnanu/jobboard-next/static/css/sass/includes/buttons.scss */
+.save-button:hover {
+  border-width: 1.5px;
+}
+
+/* line 90, /Projects/web/unnanu/jobboard-next/static/css/sass/includes/buttons.scss */
+.save-button:hover span {
+  color: #317eff;
+}
+
+/* line 95, /Projects/web/unnanu/jobboard-next/static/css/sass/includes/buttons.scss */
+.save-button.saved svg {
+  margin-right: 5px;
+}
+
+/* line 99, /Projects/web/unnanu/jobboard-next/static/css/sass/includes/buttons.scss */
+.save-button.saved.large svg {
+  margin-right: 7px;
+}
+
+/* line 104, /Projects/web/unnanu/jobboard-next/static/css/sass/includes/buttons.scss */
+.save-button:disabled {
+  cursor: not-allowed;
+  opacity: 0.2 !important;
+  border: solid 1.5px #317eff !important;
+  color: #317eff !important;
+}
+
+/* line 111, /Projects/web/unnanu/jobboard-next/static/css/sass/includes/buttons.scss */
+.apply-button {
+  width: 96px;
+  height: 35px;
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.2);
+  background-color: #317eff;
+  border: 0;
+  border-radius: 0;
+  font-size: 13px;
+  font-weight: bold;
+  letter-spacing: 0.4px;
+  color: #ffffff;
+}
+
+/* line 122, /Projects/web/unnanu/jobboard-next/static/css/sass/includes/buttons.scss */
+.apply-button span {
+  color: #ffffff;
+}
+
+/* line 126, /Projects/web/unnanu/jobboard-next/static/css/sass/includes/buttons.scss */
+.apply-button.apply-button-mobile {
+  width: 100%;
+  height: 40px;
+  font-size: 15px;
+  letter-spacing: 0.5px;
+  line-height: 26px;
+}
+
+/* line 134, /Projects/web/unnanu/jobboard-next/static/css/sass/includes/buttons.scss */
+.apply-button svg {
+  margin-top: -2px;
+}
+
+/* line 138, /Projects/web/unnanu/jobboard-next/static/css/sass/includes/buttons.scss */
+.apply-button.large {
+  width: 195px;
+  height: 48px;
+  font-size: 16px;
+}
+
+/* line 142, /Projects/web/unnanu/jobboard-next/static/css/sass/includes/buttons.scss */
+.apply-button.large svg {
+  width: 19px;
+  height: 19px;
+  margin-right: 7px;
+}
+
+/* line 148, /Projects/web/unnanu/jobboard-next/static/css/sass/includes/buttons.scss */
+.apply-button:hover {
+  box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.2);
+  background-color: #2567d5;
+}
+
+/* line 151, /Projects/web/unnanu/jobboard-next/static/css/sass/includes/buttons.scss */
+.apply-button:hover span {
+  color: #ffffff;
+}
+
+/* line 156, /Projects/web/unnanu/jobboard-next/static/css/sass/includes/buttons.scss */
+.apply-button.applied {
+  color: #0fbb85;
+  box-shadow: none;
+  background-color: rgba(15, 187, 133, 0.2);
+}
+
+/* line 160, /Projects/web/unnanu/jobboard-next/static/css/sass/includes/buttons.scss */
+.apply-button.applied svg {
+  margin-right: 5px;
+}
+
+/* line 164, /Projects/web/unnanu/jobboard-next/static/css/sass/includes/buttons.scss */
+.apply-button:disabled {
+  cursor: not-allowed;
+  box-shadow: none;
+  color: rgba(0, 0, 0, 0.16);
+  background-color: rgba(0, 0, 0, 0.08);
+}
+
+/* line 172, /Projects/web/unnanu/jobboard-next/static/css/sass/includes/buttons.scss */
+button.back-button {
+  font-size: 18px;
+  font-weight: 500;
+  letter-spacing: 0.4px;
+  color: #317eff;
+  background: none;
+  padding: 0;
+  border: 0;
+}
+
+/* line 180, /Projects/web/unnanu/jobboard-next/static/css/sass/includes/buttons.scss */
+button.back-button svg {
+  margin-top: -3px;
+  margin-right: 15px;
+}
+
+/* line 185, /Projects/web/unnanu/jobboard-next/static/css/sass/includes/buttons.scss */
+.confirm-button {
+  width: 96px;
+  height: 35px;
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.2);
+  background-color: #317eff;
+  border: 0;
+  border-radius: 0;
+  font-size: 13px;
+  font-weight: bold;
+  letter-spacing: 0.4px;
+  color: #ffffff;
+}
+
+/* line 197, /Projects/web/unnanu/jobboard-next/static/css/sass/includes/buttons.scss */
+.confirm-button.large {
+  width: 135px;
+  height: 48px;
+  font-size: 16px;
+}
+
+/* line 201, /Projects/web/unnanu/jobboard-next/static/css/sass/includes/buttons.scss */
+.confirm-button.large svg {
+  width: 19px;
+  height: 19px;
+  margin-right: 7px;
+}
+
+/* line 207, /Projects/web/unnanu/jobboard-next/static/css/sass/includes/buttons.scss */
+.confirm-button:hover {
+  box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.2);
+  background-color: #2567d5;
+}
+
+/* line 213, /Projects/web/unnanu/jobboard-next/static/css/sass/includes/buttons.scss */
+.cancel-button {
+  width: 96px;
+  height: 35px;
+  box-shadow: none !important;
+  background: none !important;
+  border: 0;
+  border-radius: 0;
+  font-size: 13px;
+  font-weight: bold;
+  letter-spacing: 0.4px;
+  color: #777777;
+}
+
+/* line 224, /Projects/web/unnanu/jobboard-next/static/css/sass/includes/buttons.scss */
+.cancel-button.large {
+  width: 135px;
+  height: 48px;
+  font-size: 16px;
+}
+
+/*# sourceMappingURL=../../includes/buttons.map */

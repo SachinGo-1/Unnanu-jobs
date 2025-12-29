@@ -1,0 +1,715 @@
+/* line 1, /Projects/web/unnanu/jobboard-next/static/css/sass/includes/popups.scss */
+.popup-close-button {
+  position: fixed;
+  top: 18px;
+  right: 30px;
+  width: 40px;
+  height: 40px;
+  border-radius: 40px;
+  background-color: #ffffff;
+  border: 0;
+  padding: 0;
+  margin: 0;
+  cursor: pointer;
+}
+
+/* line 14, /Projects/web/unnanu/jobboard-next/static/css/sass/includes/popups.scss */
+.saved-jobs-popup-wrapper {
+  margin: 0 auto;
+  width: 508px;
+  max-height: 736px;
+  border-radius: 1px;
+  background-color: #ededed;
+}
+
+/* line 20, /Projects/web/unnanu/jobboard-next/static/css/sass/includes/popups.scss */
+.saved-jobs-popup-wrapper .popup-header {
+  line-height: 24px;
+  padding: 30px;
+  height: 84px;
+  width: 100%;
+  font-size: 20px;
+  font-weight: bold;
+  letter-spacing: 0.5px;
+  color: #222222;
+  background: #ffffff;
+}
+
+/* line 31, /Projects/web/unnanu/jobboard-next/static/css/sass/includes/popups.scss */
+.saved-jobs-popup-wrapper .popup-content {
+  width: 100%;
+  max-height: 652px;
+  overflow-x: none;
+  overflow-y: scroll;
+}
+
+/* line 36, /Projects/web/unnanu/jobboard-next/static/css/sass/includes/popups.scss */
+.saved-jobs-popup-wrapper .popup-content .saved-jobs-list {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  background-color: #fafafa;
+}
+
+/* line 41, /Projects/web/unnanu/jobboard-next/static/css/sass/includes/popups.scss */
+.saved-jobs-popup-wrapper .popup-content .saved-jobs-list .job-item {
+  padding: 20px 30px 0;
+}
+
+/* line 43, /Projects/web/unnanu/jobboard-next/static/css/sass/includes/popups.scss */
+.saved-jobs-popup-wrapper .popup-content .saved-jobs-list .job-item .job-item-company-logo {
+  float: left;
+  display: inline-block;
+  width: 32px;
+  height: 32px;
+  border-radius: 32px;
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.12);
+}
+
+/* line 50, /Projects/web/unnanu/jobboard-next/static/css/sass/includes/popups.scss */
+.saved-jobs-popup-wrapper .popup-content .saved-jobs-list .job-item .job-item-company-logo img {
+  width: 100%;
+}
+
+/* line 54, /Projects/web/unnanu/jobboard-next/static/css/sass/includes/popups.scss */
+.saved-jobs-popup-wrapper .popup-content .saved-jobs-list .job-item .job-card-content {
+  position: relative;
+  margin-left: 42px;
+}
+
+/* line 57, /Projects/web/unnanu/jobboard-next/static/css/sass/includes/popups.scss */
+.saved-jobs-popup-wrapper .popup-content .saved-jobs-list .job-item .job-card-content .job-card-meta {
+  padding-bottom: 12px;
+  border-bottom: solid 1px rgba(0, 0, 0, 0.12);
+}
+
+/* line 60, /Projects/web/unnanu/jobboard-next/static/css/sass/includes/popups.scss */
+.saved-jobs-popup-wrapper .popup-content .saved-jobs-list .job-item .job-card-content .job-card-meta .job-title {
+  font-size: 13px;
+  font-weight: bold;
+  line-height: 1.46;
+  letter-spacing: 0.4px;
+  color: #27539e;
+  display: inline-block;
+  max-width: 300px;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+}
+
+/* line 73, /Projects/web/unnanu/jobboard-next/static/css/sass/includes/popups.scss */
+.saved-jobs-popup-wrapper .popup-content .saved-jobs-list .job-item .job-card-content .job-card-meta .company-name {
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 1.46;
+  letter-spacing: 0.4px;
+  color: #777777;
+  max-width: 300px;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+}
+
+/* line 85, /Projects/web/unnanu/jobboard-next/static/css/sass/includes/popups.scss */
+.saved-jobs-popup-wrapper .popup-content .saved-jobs-list .job-item .job-card-content .job-card-meta .saved-time {
+  margin-top: 8px;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 1.58;
+  color: rgba(0, 0, 0, 0.2);
+}
+
+/* line 93, /Projects/web/unnanu/jobboard-next/static/css/sass/includes/popups.scss */
+.saved-jobs-popup-wrapper .popup-content .saved-jobs-list .job-item .job-card-content .job-card-actions {
+  width: 96px;
+  text-align: right;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+/* line 99, /Projects/web/unnanu/jobboard-next/static/css/sass/includes/popups.scss */
+.saved-jobs-popup-wrapper .popup-content .saved-jobs-list .job-item .job-card-content .job-card-actions .remove-button {
+  margin-top: 8px;
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+/* line 111, /Projects/web/unnanu/jobboard-next/static/css/sass/includes/popups.scss */
+.confirm-popup-wrapper {
+  display: flex;
+  margin: 0 auto;
+  width: 450px;
+  border-radius: 1px;
+  background-color: #ededed;
+}
+
+/* line 118, /Projects/web/unnanu/jobboard-next/static/css/sass/includes/popups.scss */
+.confirm-popup-wrapper .popup-content {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  background: #ffffff;
+}
+
+/* line 123, /Projects/web/unnanu/jobboard-next/static/css/sass/includes/popups.scss */
+.confirm-popup-wrapper .popup-content .popup-header {
+  padding: 30px 34px 10px;
+}
+
+/* line 125, /Projects/web/unnanu/jobboard-next/static/css/sass/includes/popups.scss */
+.confirm-popup-wrapper .popup-content .popup-header h1 {
+  font-size: 24px;
+  letter-spacing: 0.6px;
+  color: #222222;
+  margin: 0;
+}
+
+/* line 132, /Projects/web/unnanu/jobboard-next/static/css/sass/includes/popups.scss */
+.confirm-popup-wrapper .popup-content .popup-body {
+  padding: 0px 34px 20px;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.4px;
+  color: #222222;
+}
+
+/* line 138, /Projects/web/unnanu/jobboard-next/static/css/sass/includes/popups.scss */
+.confirm-popup-wrapper .popup-content .popup-body p {
+  margin: 0 0 10px;
+}
+
+/* line 142, /Projects/web/unnanu/jobboard-next/static/css/sass/includes/popups.scss */
+.confirm-popup-wrapper .popup-content .popup-footer {
+  height: 84px;
+  padding: 18px 30px;
+  background-color: rgba(0, 0, 0, 0.03);
+}
+
+/* line 146, /Projects/web/unnanu/jobboard-next/static/css/sass/includes/popups.scss */
+.confirm-popup-wrapper .popup-content .popup-footer button {
+  width: 135px;
+}
+
+/* line 153, /Projects/web/unnanu/jobboard-next/static/css/sass/includes/popups.scss */
+.signin-popup-wrapper {
+  display: flex;
+  margin: 0 auto;
+  width: 797px;
+  height: 486px;
+  border-radius: 1px;
+  background-color: #ededed;
+}
+
+/* line 160, /Projects/web/unnanu/jobboard-next/static/css/sass/includes/popups.scss */
+.signin-popup-wrapper .popup-content {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+/* line 164, /Projects/web/unnanu/jobboard-next/static/css/sass/includes/popups.scss */
+.signin-popup-wrapper .popup-content .login-popup-artwork {
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+/* line 169, /Projects/web/unnanu/jobboard-next/static/css/sass/includes/popups.scss */
+.signin-popup-wrapper .popup-content h1 {
+  margin-top: 50px;
+  margin-left: 50px;
+  margin-bottom: 0;
+  font-family: 'Frank Ruhl Libre', serif;
+  font-size: 36px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.11;
+  letter-spacing: normal;
+  color: #222222;
+}
+
+/* line 182, /Projects/web/unnanu/jobboard-next/static/css/sass/includes/popups.scss */
+.signin-popup-wrapper .popup-content p {
+  font-size: 14px;
+  width: 381px;
+  margin-top: 14px;
+  margin-left: 50px;
+  margin-bottom: 0;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.4px;
+  color: #777777;
+}
+
+/* line 193, /Projects/web/unnanu/jobboard-next/static/css/sass/includes/popups.scss */
+.signin-popup-wrapper .popup-content .signup-button {
+  margin-top: 40px;
+  margin-left: 50px;
+}
+
+/* line 197, /Projects/web/unnanu/jobboard-next/static/css/sass/includes/popups.scss */
+.signin-popup-wrapper .popup-content .signin-link {
+  margin-top: 10px;
+  margin-left: 50px;
+  font-size: 13px;
+  line-height: 1.85;
+  letter-spacing: 0.3px;
+  color: #777777;
+}
+
+/* line 204, /Projects/web/unnanu/jobboard-next/static/css/sass/includes/popups.scss */
+.signin-popup-wrapper .popup-content .signin-link a {
+  color: #317eff;
+}
+
+/* line 208, /Projects/web/unnanu/jobboard-next/static/css/sass/includes/popups.scss */
+.signin-popup-wrapper .popup-content .popup-footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 71px;
+  background-image: radial-gradient(circle at 50% 0, #397cd5, #2d69ce);
+}
+
+/* line 214, /Projects/web/unnanu/jobboard-next/static/css/sass/includes/popups.scss */
+.signin-popup-wrapper .popup-content .popup-footer .login-popup-footer-artwork {
+  margin-left: 32px;
+}
+
+/* line 217, /Projects/web/unnanu/jobboard-next/static/css/sass/includes/popups.scss */
+.signin-popup-wrapper .popup-content .popup-footer span {
+  margin-top: 13px;
+  margin-left: 30px;
+  font-size: 15px;
+  letter-spacing: 0.4px;
+  color: #ffffff;
+}
+
+/* line 224, /Projects/web/unnanu/jobboard-next/static/css/sass/includes/popups.scss */
+.signin-popup-wrapper .popup-content .popup-footer .popup-app-store-image {
+  margin-top: 12px;
+  margin-left: 38px;
+}
+
+/* line 228, /Projects/web/unnanu/jobboard-next/static/css/sass/includes/popups.scss */
+.signin-popup-wrapper .popup-content .popup-footer .google-play-badge {
+  margin-top: 12px;
+  margin-left: 14px;
+}
+
+/* line 235, /Projects/web/unnanu/jobboard-next/static/css/sass/includes/popups.scss */
+.popup-wrapper {
+  background-color: #ffffff;
+}
+
+@media only screen and (min-width: 1025px) {
+  /* line 235, /Projects/web/unnanu/jobboard-next/static/css/sass/includes/popups.scss */
+  .popup-wrapper {
+    display: flex;
+    margin: 0 auto;
+    width: 870px;
+  }
+}
+
+/* line 243, /Projects/web/unnanu/jobboard-next/static/css/sass/includes/popups.scss */
+.popup-wrapper .popup-content {
+  padding: 28px 15px;
+}
+
+@media only screen and (min-width: 1025px) {
+  /* line 243, /Projects/web/unnanu/jobboard-next/static/css/sass/includes/popups.scss */
+  .popup-wrapper .popup-content {
+    width: 605px;
+    padding: 30px 40px;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  /* line 243, /Projects/web/unnanu/jobboard-next/static/css/sass/includes/popups.scss */
+  .popup-wrapper .popup-content {
+    margin-bottom: 93px;
+  }
+}
+
+/* line 252, /Projects/web/unnanu/jobboard-next/static/css/sass/includes/popups.scss */
+.popup-wrapper .popup-content .popup-header {
+  padding-bottom: 20px;
+  border-bottom: solid 0.6px rgba(0, 0, 0, 0.12);
+}
+
+@media only screen and (min-width: 1025px) {
+  /* line 252, /Projects/web/unnanu/jobboard-next/static/css/sass/includes/popups.scss */
+  .popup-wrapper .popup-content .popup-header {
+    padding-bottom: 29px;
+  }
+}
+
+/* line 258, /Projects/web/unnanu/jobboard-next/static/css/sass/includes/popups.scss */
+.popup-wrapper .popup-content .popup-header .logo {
+  width: 65px;
+  height: 65px;
+  margin: 0 auto;
+}
+
+@media only screen and (min-width: 1025px) {
+  /* line 258, /Projects/web/unnanu/jobboard-next/static/css/sass/includes/popups.scss */
+  .popup-wrapper .popup-content .popup-header .logo {
+    float: left;
+    width: 80px;
+    height: 80px;
+  }
+}
+
+/* line 267, /Projects/web/unnanu/jobboard-next/static/css/sass/includes/popups.scss */
+.popup-wrapper .popup-content .popup-header .logo img {
+  width: 100%;
+  object-fit: contain;
+}
+
+@media only screen and (max-width: 1024px) {
+  /* line 272, /Projects/web/unnanu/jobboard-next/static/css/sass/includes/popups.scss */
+  .popup-wrapper .popup-content .popup-header .header-content {
+    text-align: center;
+  }
+}
+
+@media only screen and (min-width: 1025px) {
+  /* line 272, /Projects/web/unnanu/jobboard-next/static/css/sass/includes/popups.scss */
+  .popup-wrapper .popup-content .popup-header .header-content {
+    margin-left: 97px;
+  }
+}
+
+/* line 279, /Projects/web/unnanu/jobboard-next/static/css/sass/includes/popups.scss */
+.popup-wrapper .popup-content .popup-header .header-content h1 {
+  font-size: 20px;
+  font-weight: bold;
+  letter-spacing: 0.5px;
+  color: #1f6cf0;
+  margin-bottom: 12px;
+}
+
+@media only screen and (max-width: 1024px) {
+  /* line 279, /Projects/web/unnanu/jobboard-next/static/css/sass/includes/popups.scss */
+  .popup-wrapper .popup-content .popup-header .header-content h1 {
+    margin-top: 15px;
+  }
+}
+
+/* line 289, /Projects/web/unnanu/jobboard-next/static/css/sass/includes/popups.scss */
+.popup-wrapper .popup-content .popup-header .header-content .job-company-location,
+.popup-wrapper .popup-content .popup-header .header-content .job-salary-range {
+  line-height: 17px;
+  font-size: 14px;
+  margin-bottom: 7px;
+}
+
+@media only screen and (min-width: 1025px) {
+  /* line 294, /Projects/web/unnanu/jobboard-next/static/css/sass/includes/popups.scss */
+  .popup-wrapper .popup-content .popup-header .header-content .job-company-location svg,
+  .popup-wrapper .popup-content .popup-header .header-content .job-salary-range svg {
+    float: left;
+  }
+}
+
+/* line 301, /Projects/web/unnanu/jobboard-next/static/css/sass/includes/popups.scss */
+.popup-wrapper .popup-content .popup-header .header-content .job-company-location svg {
+  margin-top: -2px;
+  margin-right: 2px;
+}
+
+@media only screen and (min-width: 1025px) {
+  /* line 301, /Projects/web/unnanu/jobboard-next/static/css/sass/includes/popups.scss */
+  .popup-wrapper .popup-content .popup-header .header-content .job-company-location svg {
+    margin-top: 2px;
+    margin-right: 8px;
+  }
+}
+
+/* line 309, /Projects/web/unnanu/jobboard-next/static/css/sass/includes/popups.scss */
+.popup-wrapper .popup-content .popup-header .header-content .job-company-location div {
+  margin-left: 18px;
+}
+
+/* line 314, /Projects/web/unnanu/jobboard-next/static/css/sass/includes/popups.scss */
+.popup-wrapper .popup-content .popup-header .header-content .job-salary-range svg {
+  margin-top: -4px;
+  margin-right: 2px;
+}
+
+@media only screen and (min-width: 1025px) {
+  /* line 314, /Projects/web/unnanu/jobboard-next/static/css/sass/includes/popups.scss */
+  .popup-wrapper .popup-content .popup-header .header-content .job-salary-range svg {
+    margin-top: 3px;
+    margin-right: 7px;
+  }
+}
+
+/* line 322, /Projects/web/unnanu/jobboard-next/static/css/sass/includes/popups.scss */
+.popup-wrapper .popup-content .popup-header .header-content .job-salary-range div {
+  display: inline-block;
+}
+
+/* line 326, /Projects/web/unnanu/jobboard-next/static/css/sass/includes/popups.scss */
+.popup-wrapper .popup-content .popup-header .header-content .term-type-wrapper {
+  margin-top: 3px;
+}
+
+/* line 328, /Projects/web/unnanu/jobboard-next/static/css/sass/includes/popups.scss */
+.popup-wrapper .popup-content .popup-header .header-content .term-type-wrapper .term-type {
+  line-height: 25px;
+  font-weight: 500;
+  letter-spacing: 0.4px;
+  color: #777777;
+  margin-bottom: 8px;
+}
+
+@media only screen and (max-width: 1024px) {
+  /* line 328, /Projects/web/unnanu/jobboard-next/static/css/sass/includes/popups.scss */
+  .popup-wrapper .popup-content .popup-header .header-content .term-type-wrapper .term-type {
+    -ms-flex-pack: center !important;
+    justify-content: center !important;
+  }
+}
+
+/* line 338, /Projects/web/unnanu/jobboard-next/static/css/sass/includes/popups.scss */
+.popup-wrapper .popup-content .popup-header .header-content .term-type-wrapper .term-type .label {
+  font-size: 13px;
+}
+
+/* line 341, /Projects/web/unnanu/jobboard-next/static/css/sass/includes/popups.scss */
+.popup-wrapper .popup-content .popup-header .header-content .term-type-wrapper .term-type .tag {
+  margin-left: 5px;
+  padding: 0 13px;
+  height: 25px;
+  line-height: 24px;
+  display: inline-block;
+  font-size: 12px;
+  border-radius: 12.5px;
+  border: solid 1px rgba(0, 0, 0, 0.12);
+  background-color: #ffffff;
+}
+
+/* line 352, /Projects/web/unnanu/jobboard-next/static/css/sass/includes/popups.scss */
+.popup-wrapper .popup-content .popup-header .header-content .term-type-wrapper .term-type:last-child {
+  margin-bottom: 0;
+}
+
+/* line 357, /Projects/web/unnanu/jobboard-next/static/css/sass/includes/popups.scss */
+.popup-wrapper .popup-content .popup-header .header-content .profile-video-required {
+  margin-top: 14px;
+  font-size: 13px;
+  color: rgba(0, 0, 0, 0.4);
+}
+
+/* line 359, /Projects/web/unnanu/jobboard-next/static/css/sass/includes/popups.scss */
+.popup-wrapper .popup-content .popup-header .header-content .profile-video-required svg {
+  margin-top: -2px;
+  margin-right: 6.5px;
+}
+
+/* line 368, /Projects/web/unnanu/jobboard-next/static/css/sass/includes/popups.scss */
+.popup-wrapper .popup-content .popup-body {
+  padding-top: 20px;
+  font-size: 14px;
+  color: #777777;
+}
+
+@media only screen and (min-width: 1025px) {
+  /* line 368, /Projects/web/unnanu/jobboard-next/static/css/sass/includes/popups.scss */
+  .popup-wrapper .popup-content .popup-body {
+    padding-top: 30px;
+  }
+}
+
+/* line 375, /Projects/web/unnanu/jobboard-next/static/css/sass/includes/popups.scss */
+.popup-wrapper .popup-content .popup-body h2 {
+  font-size: 14px;
+  color: #222222;
+}
+
+/* line 382, /Projects/web/unnanu/jobboard-next/static/css/sass/includes/popups.scss */
+.popup-wrapper .popup-content hr {
+  margin-top: 30px;
+  margin-bottom: 22px;
+  border-color: rgba(0, 0, 0, 0.12);
+}
+
+/* line 387, /Projects/web/unnanu/jobboard-next/static/css/sass/includes/popups.scss */
+.popup-wrapper .popup-content .job-post-footer {
+  text-align: center;
+}
+
+@media only screen and (min-width: 1025px) {
+  /* line 387, /Projects/web/unnanu/jobboard-next/static/css/sass/includes/popups.scss */
+  .popup-wrapper .popup-content .job-post-footer {
+    justify-content: space-between;
+    display: flex;
+  }
+}
+
+/* line 393, /Projects/web/unnanu/jobboard-next/static/css/sass/includes/popups.scss */
+.popup-wrapper .popup-content .job-post-footer .job-post-timestamp {
+  height: 15px;
+  line-height: 15px;
+  font-size: 12px;
+  font-weight: 500;
+  letter-spacing: 0.3px;
+  color: #777777;
+}
+
+/* line 401, /Projects/web/unnanu/jobboard-next/static/css/sass/includes/popups.scss */
+.popup-wrapper .popup-content .job-post-footer .more-job-posts {
+  height: 15px;
+  font-size: 12px;
+  font-weight: 500;
+  letter-spacing: 0.3px;
+  color: #266adc;
+  max-width: 400px;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+}
+
+@media only screen and (min-width: 1024px) {
+  /* line 401, /Projects/web/unnanu/jobboard-next/static/css/sass/includes/popups.scss */
+  .popup-wrapper .popup-content .job-post-footer .more-job-posts {
+    text-align: right;
+  }
+}
+
+/* line 419, /Projects/web/unnanu/jobboard-next/static/css/sass/includes/popups.scss */
+.popup-wrapper .popup-sidebar {
+  width: 265px;
+  padding: 30px 35px;
+  background-color: #f9f9f9;
+}
+
+@media only screen and (max-width: 1024px) {
+  /* line 419, /Projects/web/unnanu/jobboard-next/static/css/sass/includes/popups.scss */
+  .popup-wrapper .popup-sidebar {
+    display: none;
+  }
+}
+
+/* line 426, /Projects/web/unnanu/jobboard-next/static/css/sass/includes/popups.scss */
+.popup-wrapper .popup-sidebar button {
+  margin-bottom: 15px;
+}
+
+/* line 429, /Projects/web/unnanu/jobboard-next/static/css/sass/includes/popups.scss */
+.popup-wrapper .popup-sidebar .widget-title {
+  color: #222222;
+}
+
+@media only screen and (max-width: 1024px) {
+  /* line 434, /Projects/web/unnanu/jobboard-next/static/css/sass/includes/popups.scss */
+  .single-job-container {
+    padding: 0;
+  }
+}
+
+@media only screen and (min-width: 1025px) {
+  /* line 434, /Projects/web/unnanu/jobboard-next/static/css/sass/includes/popups.scss */
+  .single-job-container {
+    margin-top: 26px;
+  }
+}
+
+/* line 441, /Projects/web/unnanu/jobboard-next/static/css/sass/includes/popups.scss */
+.single-job-container .single-job-back {
+  background: none;
+}
+
+@media only screen and (max-width: 1024px) {
+  /* line 441, /Projects/web/unnanu/jobboard-next/static/css/sass/includes/popups.scss */
+  .single-job-container .single-job-back {
+    padding: 15px;
+  }
+}
+
+@media only screen and (min-width: 1025px) {
+  /* line 441, /Projects/web/unnanu/jobboard-next/static/css/sass/includes/popups.scss */
+  .single-job-container .single-job-back {
+    width: 945px;
+    margin-bottom: 22px;
+  }
+}
+
+/* line 451, /Projects/web/unnanu/jobboard-next/static/css/sass/includes/popups.scss */
+.single-job-container .popup-wrapper {
+  width: 100%;
+}
+
+@media only screen and (min-width: 1025px) {
+  /* line 451, /Projects/web/unnanu/jobboard-next/static/css/sass/includes/popups.scss */
+  .single-job-container .popup-wrapper {
+    width: 945px;
+  }
+}
+
+/* line 456, /Projects/web/unnanu/jobboard-next/static/css/sass/includes/popups.scss */
+.single-job-container .popup-wrapper .popup-content {
+  width: 100%;
+}
+
+@media only screen and (min-width: 1025px) {
+  /* line 456, /Projects/web/unnanu/jobboard-next/static/css/sass/includes/popups.scss */
+  .single-job-container .popup-wrapper .popup-content {
+    width: 680px;
+  }
+}
+
+/* line 461, /Projects/web/unnanu/jobboard-next/static/css/sass/includes/popups.scss */
+.single-job-container .popup-wrapper .popup-content .ui-actions-wrapper-mobile {
+  margin-top: 20px;
+}
+
+/* line 463, /Projects/web/unnanu/jobboard-next/static/css/sass/includes/popups.scss */
+.single-job-container .popup-wrapper .popup-content .ui-actions-wrapper-mobile button.apply-button {
+  width: 100%;
+}
+
+@media only screen and (min-width: 1025px) {
+  /* line 461, /Projects/web/unnanu/jobboard-next/static/css/sass/includes/popups.scss */
+  .single-job-container .popup-wrapper .popup-content .ui-actions-wrapper-mobile {
+    display: none;
+  }
+}
+
+/* line 469, /Projects/web/unnanu/jobboard-next/static/css/sass/includes/popups.scss */
+.single-job-container .popup-wrapper .popup-content .ui-actions-wrapper-mobile .widget .widget-share .widget-share-mobile-header {
+  margin-top: 20px;
+  padding-top: 22px;
+  padding-bottom: 19px;
+  border-top: solid 0.6px rgba(0, 0, 0, 0.12);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between !important;
+}
+
+/* line 478, /Projects/web/unnanu/jobboard-next/static/css/sass/includes/popups.scss */
+.single-job-container .popup-wrapper .popup-content .ui-actions-wrapper-mobile .widget .widget-share .share-title-mobile {
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: 0.4px;
+  color: #222222;
+}
+
+/* line 484, /Projects/web/unnanu/jobboard-next/static/css/sass/includes/popups.scss */
+.single-job-container .popup-wrapper .popup-content .ui-actions-wrapper-mobile .widget .widget-share .share-platforms {
+  width: 167px;
+}
+
+/* line 487, /Projects/web/unnanu/jobboard-next/static/css/sass/includes/popups.scss */
+.single-job-container .popup-wrapper .popup-content .ui-actions-wrapper-mobile .widget .widget-share .share-url {
+  padding-bottom: 20px;
+  border-bottom: solid 0.6px rgba(0, 0, 0, 0.12);
+}
+
+/*# sourceMappingURL=../../includes/popups.map */
