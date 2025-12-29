@@ -24,3 +24,7 @@ scss/**/*.css
 
 # storybook
 /storybook-static/
+
+#env
+.env.development
+.env.production
