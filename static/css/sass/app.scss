@@ -403,15 +403,18 @@ header.app-header {
 
     .keyword-search-box {
       width: 100%;
+      max-width: 400px;
       border: solid 1px #5C8FE4;
       background-color: #3F7DE4;
       @media only screen and (min-width: 769px) {
         width: 417px;
+        max-width: none;
       }
     }
 
     .location-search-box {
       width: 100%;
+      max-width: 400px;
       margin-top: 10px;
       border: solid 1px #5C8FE4;
       background-color: #3F7DE4;
@@ -419,6 +422,7 @@ header.app-header {
         margin-top: 0;
         margin-left: 10px;
         width: 265px;
+        max-width: none;
       }
     }
 
@@ -1119,7 +1123,12 @@ header.app-header {
 
     .result-card-ui-actions {
       @media only screen and (max-width: 1024px) {
-        display: none;
+        display: flex;
+        position: static;
+        margin-top: 10px;
+        gap: 10px;
+        justify-content: flex-start;
+        align-items: flex-start;
       }
       //width: 184px;
       position: absolute;
@@ -1137,6 +1146,14 @@ header.app-header {
         letter-spacing: 0.1px;
         color: rgba(0, 0, 0, 0.2);
         text-align: right;
+      }
+
+      .apply-button {
+        @media only screen and (max-width: 1024px) {
+          width: auto;
+          max-width: 160px;
+          padding: 8px 14px;
+        }
       }
     }
 
@@ -1160,6 +1177,16 @@ header.app-header {
     .apply-button-mobile {
       @media only screen and (min-width: 1025px) {
         display: none;
+      }
+
+      @media only screen and (max-width: 1024px) {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        text-align: center;
+        width: 140px;
+        max-width: 100%;
+        margin: 12px 0 0;
       }
     }
 

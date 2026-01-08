@@ -148,8 +148,11 @@ button.view-all-btn {
   .apply-button span {
     color: #222222; }
   .apply-button.apply-button-mobile {
-    width: 100%;
+    width: auto;
+    min-width: 160px;
+    max-width: 170px;
     height: 40px;
+    padding: 0 16px;
     font-size: 15px;
     letter-spacing: 0.5px;
     line-height: 26px; }
@@ -1111,6 +1114,7 @@ header.app-header .guest-user-navigation nav .signup-button {
       display: none; }
     header.app-header .search-wrapper .keyword-search-box {
       width: 100%;
+      max-width: 400px;
       border: solid 1px #e0e0e0;
       background-color: #ffffff;
       flex: 0 0 auto;
@@ -1118,9 +1122,11 @@ header.app-header .guest-user-navigation nav .signup-button {
       @media only screen and (min-width: 769px) {
         header.app-header .search-wrapper .keyword-search-box {
           width: 280px;
+          max-width: none;
           flex: 0 0 280px; } }
     header.app-header .search-wrapper .location-search-box {
       width: 100%;
+      max-width: 400px;
       margin-top: 10px;
       border: solid 1px #e0e0e0;
       background-color: #ffffff;
@@ -1131,6 +1137,7 @@ header.app-header .guest-user-navigation nav .signup-button {
           margin-top: 0;
           margin-left: 0;
           width: 280px;
+          max-width: none;
           flex: 0 0 280px; } }
     header.app-header .search-wrapper .find-jobs-btn {
       padding: 10px 20px;
@@ -1683,6 +1690,16 @@ header.app-header .guest-user-navigation nav .signup-button {
     .result-card .card-text-content .timestamp-mobile,
     .result-card .card-text-content .apply-button-mobile {
       display: none; } }
+  @media only screen and (max-width: 1024px) {
+    .result-card .card-text-content .timestamp-mobile,
+    .result-card .card-text-content .apply-button-mobile {
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+      text-align: center;
+      width: 140px;
+      max-width: 100%;
+      margin: 12px 0 0; } }
   .result-card .card-text-content .result-card-description {
     max-height: 55px;
     overflow: hidden;
@@ -1774,10 +1791,15 @@ header.app-header .guest-user-navigation nav .signup-button {
         background-color: #dcdcdc; }
         .result-card.loading .card-text-content .result-card-description .result-loading-line:last-child {
           margin-bottom: 0; }
+          @media only screen and (max-width: 768px) {
+  .result-card:first-child {
+    padding-top: 70px;
+  }
+}
 
 .unnanu-hire-cta {
   width: 100%;
-  padding: 20px;
+  padding: 12px 20px;
   border-radius: 12px;
   background-color: #0b63d8;
   color: #ffffff; }
@@ -1799,19 +1821,19 @@ header.app-header .guest-user-navigation nav .signup-button {
     font-family: 'Frank Ruhl Libre', serif;
     font-size: 22px;
     font-weight: 700;
-    line-height: 1.2;
+    line-height: 1;
     color: #ffffff;
-    margin-bottom: 8px; }
+    margin-bottom: 4px; }
   .unnanu-hire-cta .unnanu-hire-cta-desc {
     font-family: Lato;
     font-size: 14px;
-    line-height: 1.46;
+    line-height: 1.4;
     letter-spacing: 0.2px;
     color: #ffffff;
-    margin-bottom: 20px; }
+    margin-bottom: 10px; }
   .unnanu-hire-cta .unnanu-hire-cta-button {
     width: 138px;
-    height: 38px;
+    height: 33px;
     border-radius: 8px;
     border: none;
     background-color: #ffffff;
@@ -1832,8 +1854,8 @@ header.app-header .guest-user-navigation nav .signup-button {
       box-shadow: 0 4px 12px rgba(0, 0, 0, 0.25);
       transform: translateY(-1px); }
   .unnanu-hire-cta .unnanu-hire-cta-image {
-    margin-top: 10px;
-    margin-bottom: -10px;
+    margin-top: 5px;
+    margin-bottom: -12px;
     margin-right: -20px;
     text-align: right; }
 
